@@ -1,0 +1,50 @@
+.home {
+min-height: calc(100vh - 70px);
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+background-color: #f5f5f5;
+}
+
+.home-content {
+max-width: 700px;
+padding: 40px;
+}
+
+.welcome {
+color: #777;
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 2px;
+margin-bottom: 15px;
+}
+
+.home-content h1 {
+color: #222;
+background-color: transparent;
+font-size: 48px;
+line-height: 1.2;
+margin-bottom: 20px;
+}
+
+.description {
+color: #666;
+font-size: 17px;
+line-height: 1.6;
+margin-bottom: 30px;
+}
+
+.home-content button {
+padding: 13px 30px;
+border: none;
+border-radius: 6px;
+background-color: #222;
+color: white;
+font-size: 16px;
+cursor: pointer;
+}
+
+.home-content button:hover {
+background-color: #444;
+}
